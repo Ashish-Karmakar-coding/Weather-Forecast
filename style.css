@@ -1,0 +1,96 @@
+*{margin: 0;padding: 0;}
+
+body{
+
+     background-color: #222; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main{
+    /* background-color: aqua; */
+    background: linear-gradient( 135deg,#00feba, #5b548a );
+    width: 40vh;
+    /* height: 60vh; */
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.upper{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+}
+input{
+    font-size: 1rem;
+    border: none;
+    border-radius: 17px;
+    padding: 10px;
+    outline: none;
+}
+button{
+    width: 36px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.img{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.temp{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.city{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.lower{
+    position:relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px ;
+    color: white;
+}
+
+.left{
+    display: flex;
+}.HU_value{
+    display: flex;
+    justify-content: center;
+}.HUimg > img{
+    width: 40px;margin: 5px;
+}.L_tag{
+    font-size: 1.2rem;
+}
+
+.right{
+    display: flex;
+}.WS_value{
+    display: flex;
+    justify-content: center;
+}.WSimg > img{
+    width: 40px;margin: 5px;
+}.R_tag{
+    font-size: 1.2rem;
+}
+/* .weather{
+    display: none;
+} */

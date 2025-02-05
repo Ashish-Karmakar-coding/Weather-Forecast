@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="upper">
+            <input type="text" placeholder="Enter Your City">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather">
+            <div class="img"><img src="clear.png"></div>
+            <div class="temp">
+                <p class="temp_value">20°c</p>
+            </div>
+            <div class="city">Kolkata</div>
+            <div class="lower">
+                <div class="left">
+                    <div class="HUimg"><img src="humidity.png"></div>
+                    <div class="humidity">
+                        <div class="HU_value">
+                            <p class="HUV">69%</p>
+                        </div>
+                        <p class="L_tag">humidity</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="WSimg"><img src="wind.png"></div>
+                    <div class="wind_speed">
+                        <div class="WS_value">
+                            <p class="WSV">12.32 km/h</p>
+                        </div>
+                        <p class="R_tag">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
