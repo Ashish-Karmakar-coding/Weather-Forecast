@@ -2,7 +2,6 @@ const BASE_URL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q
 const apiKey = "e61f74672405576b267e3cfaa70aa062";
 
 
-let city = document.querySelector(".upper input").value;
 let btn = document.querySelector(".upper button");
 let img = document.querySelector(".img");
 let temp = document.querySelector(".temp .temp_value");
@@ -11,6 +10,8 @@ let humidity = document.querySelector(".HUV");
 let windSpeed = document.querySelector(".WSV");
 
 const weatherCheck = async() => {
+let city = document.querySelector(".upper input").value;
+    
     const response = await fetch(BASE_URL + city + `&appid=${apiKey}`);
     let data = response.json();
     console.log(data);
