@@ -13,7 +13,7 @@ const weatherCheck = async() => {
 let city = document.querySelector(".upper input").value;
     
     const response = await fetch(BASE_URL + city + `&appid=${apiKey}`);
-    let data = response.json();
+    let data = await response.json();
     console.log(data);
 
     cityName.innerText = data.name;
